@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryCachingDemo", "InMemoryCachingDemo\InMemoryCachingDemo.csproj", "{930A0EB5-E284-48C0-BDDF-6FFB69E9F2B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceAPI", "ECommerceAPI\ECommerceAPI.csproj", "{9ED8D3EA-2207-4824-B635-778074D41AB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelBookingAPI", "HotelBookingAPI\HotelBookingAPI.csproj", "{835C0D9B-5425-479E-AFD0-AC331E891D4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unitTestECommerceAPI", "unitTestECommerceAPI\unitTestECommerceAPI.csproj", "{8F8D1BDC-CEB1-41ED-9E5B-1D7CDC118AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileEncryptionAPI", "FileEncryptionAPI\FileEncryptionAPI.csproj", "{00B550A9-6AB0-4D2A-BCC5-456DBC2F7983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsAggregatorAPI", "NewsAggregatorAPI\NewsAggregatorAPI.csproj", "{7D5A52EF-6C83-43AC-8F19-E974CE182177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{930A0EB5-E284-48C0-BDDF-6FFB69E9F2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930A0EB5-E284-48C0-BDDF-6FFB69E9F2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930A0EB5-E284-48C0-BDDF-6FFB69E9F2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930A0EB5-E284-48C0-BDDF-6FFB69E9F2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED8D3EA-2207-4824-B635-778074D41AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED8D3EA-2207-4824-B635-778074D41AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED8D3EA-2207-4824-B635-778074D41AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED8D3EA-2207-4824-B635-778074D41AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835C0D9B-5425-479E-AFD0-AC331E891D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835C0D9B-5425-479E-AFD0-AC331E891D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835C0D9B-5425-479E-AFD0-AC331E891D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835C0D9B-5425-479E-AFD0-AC331E891D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8D1BDC-CEB1-41ED-9E5B-1D7CDC118AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8D1BDC-CEB1-41ED-9E5B-1D7CDC118AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8D1BDC-CEB1-41ED-9E5B-1D7CDC118AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8D1BDC-CEB1-41ED-9E5B-1D7CDC118AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B550A9-6AB0-4D2A-BCC5-456DBC2F7983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B550A9-6AB0-4D2A-BCC5-456DBC2F7983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B550A9-6AB0-4D2A-BCC5-456DBC2F7983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B550A9-6AB0-4D2A-BCC5-456DBC2F7983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5A52EF-6C83-43AC-8F19-E974CE182177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5A52EF-6C83-43AC-8F19-E974CE182177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5A52EF-6C83-43AC-8F19-E974CE182177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5A52EF-6C83-43AC-8F19-E974CE182177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E8BDAE7-BCC9-4C5F-B941-613F46CB516A}
+	EndGlobalSection
+EndGlobal

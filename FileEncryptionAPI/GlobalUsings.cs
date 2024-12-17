@@ -1,0 +1,10 @@
+﻿global using FileEncryptionAPI.Models;
+global using FileEncryptionAPI.Repository;
+global using FileEncryptionAPI.DTOs;
+global using MongoDB.Bson;
+global using MongoDB.Bson.Serialization.Attributes;
+global using MongoDB.Driver;
+global using Microsoft.Extensions.Caching.Memory;
+global using Microsoft.Extensions.Configuration;
+global using System.Security.Cryptography;
+global using Microsoft.AspNetCore.Mvc;

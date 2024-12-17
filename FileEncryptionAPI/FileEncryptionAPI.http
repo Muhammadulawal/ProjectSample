@@ -1,0 +1,6 @@
+@FileEncryptionAPI_HostAddress = http://localhost:5293
+
+GET {{FileEncryptionAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

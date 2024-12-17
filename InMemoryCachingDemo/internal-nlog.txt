@@ -1,0 +1,32 @@
+2024-11-30 21:06:11.1410 Warn FileTarget(Name=file): Failed to create file appender: D:/Logs/nlog-all-2024-11-30.log Exception: NLog.NLogRuntimeException: Could not create directory D:\Logs
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Logs'.
+   at System.IO.FileSystem.CreateDirectory(String fullPath, Byte[] securityDescriptor)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2024-11-30 21:06:14.3282 Warn FileTarget(Name=file): Failed to create file appender: D:/Logs/nlog-all-2024-11-30.log Exception: NLog.NLogRuntimeException: Could not create directory D:\Logs
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Logs'.
+   at System.IO.FileSystem.CreateDirectory(String fullPath, Byte[] securityDescriptor)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateDirectoryFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2024-12-01 12:57:51.4419 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFileWrapper
+2024-12-01 12:57:51.4639 Error AsyncWrapper(Name=asyncFileWrapper): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'WrappedTarget' on 'AsyncWrapper(Name=asyncFileWrapper)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-12-01 14:27:04.5595 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFileWrapper
+2024-12-01 14:27:04.6121 Error AsyncWrapper(Name=asyncFileWrapper): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'WrappedTarget' on 'AsyncWrapper(Name=asyncFileWrapper)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-12-01 14:29:22.1125 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFileWrapper
+2024-12-01 15:41:58.5564 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFileWrapper
